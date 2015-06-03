@@ -1,0 +1,207 @@
+@import url(http://fonts.googleapis.com/css?family=Cuprum:400,400italic&subset=latin,cyrillic);
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td 
+{ margin:0; padding:0; border:0; outline:0;
+ font-weight:inherit; font-style:inherit; font-size:100%; font-family:inherit; 
+ vertical-align:baseline; }
+
+/* не забудьте определить состояник "фокус", стилей */
+:focus { outline:0; }
+body { line-height:1; color:black; background:white; }
+ol, ul { list-style:none; }
+
+/* таблицам необходим cellspacing="0" в разметке */
+table { border-collapse:separate; border-spacing:0; }
+caption, th, td { text-align:left; font-weight:normal; }
+blockquote:before, blockquote:after, q:before, q:after { content:""; }
+blockquote, q { quotes:"" ""; }
+
+body {
+background: #223455  url(img/vector-ornamental.jpg)  repeat-x  fixed left top; 
+}
+#page {
+    width: 610px;
+    margin: 0 auto;
+    height: 1000px;
+}
+.strong{ text-align:  center;
+line-height: 20px;
+ /   word-spacing: 10px;
+  /  letter-spacing: 5px;
+   / text-indent: 10px;
+    /text-transform: capitalize;
+    text-decoration:none ;
+    
+    margin-top: 20px;
+    font-weight:bold;
+    color:#ede041;
+    font-family: "Cuprum" , sans-serif;
+    font-style: italic;
+   / font-variant: small-caps;
+
+}
+.strong-red {
+ text-align:  left;
+    /line-height: 20px;
+ /   word-spacing: 10px;
+  /  letter-spacing: 5px;
+   / text-indent: 10px;
+    /text-transform: capitalize;
+    text-decoration:none ;
+    
+    margin-top: 20px;
+    font-weight:bold;
+    color:#ede041;
+    font-family: "Cuprum" , sans-serif;
+    font-style: italic;
+   / font-variant: small-caps;
+} 
+
+.ligth-blue {
+    font-weight:lighter;
+    color:blue;  
+    
+}
+#styles li {
+   text-transform: capitalize;
+   text-align:right;
+color:#fff;
+font-family: "Cuprum" , sans-serif;
+/list-style:url(img/dog.png)  inside ;
+text-decoration:none ;
+    text-align:left;
+    margin-top: 20px;
+    font-weight:bold;
+    color:#ede041;
+    font-family: "Cuprum" , sans-serif;
+    font-style: italic;
+   
+    
+
+padding 5px;
+/border: 1px solid #797979;
+}
+
+.add{
+    text-decoration:none ;
+    text-align:left;
+    margin-top: 20px;
+    font-weight:bold;
+    color:#ede041;
+    font-family: "Cuprum" , sans-serif;
+    font-style: italic;
+}
+#styles li:hover {
+    background: rgba(118, 118, 118, 0.69);
+}
+#navigation{
+background: rgba(51, 50, 47, 0.74);
+height :50px;
+     text-transform: capitalize;
+    border: 2px solid rgba(255, 241, 76, 0.76);
+  border-radius: 10px;
+    
+}
+#navigation ul li{
+position:relative;
+float:left;
+list-style-type:none;
+width: 101px;
+    text-align: center 
+
+}
+#navigation ul li a{
+   color:#fff;
+padding: 0 10px;
+font-family:"Cuprum",sans-serif;
+text-decoration:none;
+line-height: 65px;
+height:50px;
+border: 2px   rgba(51, 50, 47, 0.74);
+border-radius: 1px;
+outline:1px ;
+display:block;
+}
+#navigation ul li a:hover{
+background:rgba(194, 196, 167, 0.18) ;
+text-decoration:underline;
+    
+}
+#navigation.dropdown{
+display:none;
+position: absolute;
+width: 100px;
+heigth:20px;
+top: 100%;
+background:rgba(106, 106, 106, 0.67);    
+}
+#navigation li:hover .dropdown{
+    display: block;
+  
+    
+}
+#navigation.dropdown li{
+    width: 100%;
+    background: rgba(131, 131, 131, 0.74);
+
+}
+#navigation.dropdown li a{
+line-height: 30px;
+height: 30px;
+}
+ul.dropdown{
+display:none;
+height: 20px}
+#header{
+    background:  url(img/d.png) top;
+    display:block;
+    width:610px;
+    height: 180px;
+    }
+#header:hover{
+    background: url(img/ds.png) top;
+  
+}
+
+.search {
+    position:absolute;
+    top:20px;
+    right:40px;
+    border: 2px solid rgba(255, 241, 76, 0.76);
+  border-radius: 10px;
+    
+}
+
+/#fixed {
+   position: fixed;
+    width:100%;
+    height:100%;
+    background: rgba(245, 255, 0, 0.1);
+    top:0;
+    right:0;
+}
+
+/.modal-body {
+    position:absolute;
+    width: 200px;
+    heigth;200px;
+    background:#fff;
+    top:50%;
+    left:50%;
+    margin-left:-100px;
+    margin-top: -100px;
+}
+#foto{
+    width: 300px;
+    height: 450px;
+    margin-top: 20px;
+    margin-left: 0;
+}
+#footer{
+
+ width: 100%;
+    
+}
